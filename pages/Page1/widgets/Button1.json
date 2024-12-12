@@ -1,10 +1,11 @@
 {
-  "allowedFileTypes": [],
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 41,
+  "bottomRow": 35,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
     {
       "key": "buttonColor"
@@ -13,37 +14,44 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTyping": true,
-  "fileDataType": "Base64",
-  "files": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
-  "isRequired": false,
   "isVisible": true,
-  "key": "i93v3lqszs",
-  "label": "Select Files",
+  "key": "sqta2fuhc7",
   "leftColumn": 3,
-  "maxFileSize": 5,
-  "maxNumFiles": 1,
   "minWidth": 120,
-  "mobileBottomRow": 7,
+  "mobileBottomRow": 35,
   "mobileLeftColumn": 3,
   "mobileRightColumn": 19,
-  "mobileTopRow": 3,
+  "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "originalBottomRow": 41,
-  "originalTopRow": 37,
-  "parentColumnSpace": 8.078125,
+  "onClick": "{{Query1.run()}}",
+  "originalBottomRow": 35,
+  "originalTopRow": 31,
+  "parentColumnSpace": 14.109375,
   "parentId": "0",
   "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
   "renderMode": "CANVAS",
+  "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 19,
-  "selectedFiles": [],
-  "topRow": 37,
-  "type": "FILE_PICKER_WIDGET_V2",
+  "text": "Submit",
+  "topRow": 31,
+  "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "88jr55w6z7",
-  "widgetName": "FilePicker1"
+  "widgetId": "aoneh3vguz",
+  "widgetName": "Button1"
 }
