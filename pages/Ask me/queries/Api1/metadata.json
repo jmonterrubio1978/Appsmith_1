@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6748792e65e29f417f809cb0_12800552-08a9-488a-b0bb-d107553d6526",
-  "id": "Page1_Api1",
+  "id": "Ask me_Api1",
   "pluginId": "Google AI",
   "pluginType": "AI",
   "unpublishedAction": {
@@ -27,7 +27,7 @@
     "dynamicBindingPathList": [],
     "executeOnLoad": false,
     "name": "Api1",
-    "pageId": "Page1",
+    "pageId": "Ask me",
     "userSetOnLoad": false
   }
 }

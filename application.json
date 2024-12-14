@@ -18,8 +18,12 @@
   "icon": "system",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Ask me",
       "isDefault": true
+    },
+    {
+      "id": "Describe Image",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
